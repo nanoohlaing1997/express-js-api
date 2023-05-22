@@ -1,0 +1,11 @@
+{
+	"type": "mysql",
+	"host": "mysql",
+	"port": 3306,
+	"username": "root",
+	"password": "root",
+	"database": "user_management",
+	"entities": ["src/models/*.ts"],
+	"logging": true,
+	"synchronize": true
+}

@@ -1,0 +1,42 @@
+{
+  "name": "express-small-project",
+  "version": "1.0.0",
+  "description": "Small project for back-end with express js and mysql ",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanoohlaing1997/express-small-project.git"
+  },
+  "author": "Nan Oo Hlaing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanoohlaing1997/express-small-project/issues"
+  },
+  "homepage": "https://github.com/nanoohlaing1997/express-small-project#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "express-validator": "^7.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
