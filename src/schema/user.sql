@@ -10,5 +10,5 @@ CREATE TABLE `users` (
   KEY `users_email_index` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-CREATE INDEX name on users (name)
-CREATE INDEX email on users (email)
+CREATE INDEX name on users (name);
+CREATE INDEX email on users (email);

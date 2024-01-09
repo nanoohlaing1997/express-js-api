@@ -1,7 +1,7 @@
-import { DBInit } from './src/database/datasouce';
-import express, { Express } from "express"
+import { DBInit } from './src/database/datasouce'
+import express, { Express } from 'express'
 
-import { Router } from "./src/routes/route"
+import { Router } from './src/routes/route'
 import dotenv from 'dotenv'
 
 // load up config
@@ -16,6 +16,10 @@ const port = process.env.PORT
 DBInit()
 // registering route
 Router(app)
+
+// middleware json validator
+app.use(express.json)
+app.use(express.urlencoded({ extended: true }))
 
 // open port
 app.listen(port, () => {

@@ -1,6 +1,5 @@
 import * as myslqDriver from "mysql2"
-import { DataSource, Db } from "typeorm"
-import path from "path"
+import { DataSource } from "typeorm"
 import dotenv from "dotenv"
 import { User } from '../models/user';
 
