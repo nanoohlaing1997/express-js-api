@@ -3,6 +3,7 @@
 # express-user-management-project
 
 ### Requirement
+
 - node-js ( >= 18.16)
 - mysql (>= 5.7)
 
@@ -15,15 +16,19 @@ git clone https://github.com/nanoohlaing1997/express-small-project.git
 ```
 
 - Copy `.env.example` to `.env`
+
 ```
 cp .env.example .env
 ```
+
 - Create Database in mysql
+
 ```
 create database user_management
 ```
 
 - Create Table in mysql (U can copy from shceme/user.sql)
+
 ```
 CREATE TABLE `users` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
@@ -42,11 +47,19 @@ CREATE INDEX email on users (email)
 ```
 
 - To install dependencies
+
 ```
 npm install
 ```
 
 - To run project
+
 ```
 npm start
+```
+
+- To test API in insomnia
+
+```
+import `user-register-express-js-api.json` to insomnia app
 ```
